@@ -20,11 +20,11 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
         //String fileName = "C:\\Users\\Meow\\Desktop\\School\\UFO\\letterfrequencies-master\\src\\main\\java\\cphbusiness\\ufo\\letterfrequencies\\test.txt";
-        String fileName = "C:\\Users\\Meow\\Desktop\\School\\UFO\\letterfrequencies-master\\src\\main\\resources\\FoundationSeries.txt";
+        String fileName = "C:\\Users\\Meow\\Desktop\\School\\UFO\\week2\\letterfrequencies-master\\src\\main\\resources\\FoundationSeries.txt";
         Reader reader = new FileReader(fileName);
         Map<Integer, Integer> freq = new HashMap<>();
         tallyChars(reader, freq);
-        //print_tally(freq);
+        print_tally(freq);
     }
 
     private static void tallyChars(Reader reader, Map<Integer, Integer> freq) throws IOException {
@@ -38,13 +38,13 @@ public class Main {
         }
     }
 
-    private static void print_tally(Map<Integer, Long> freq) {
+    private static void print_tally(Map<Integer, Integer> freq) {
         int dist = 'a' - 'A';
-        Map<Character, Long> upperAndlower = new LinkedHashMap();
+        Map<Character, Integer> upperAndlower = new LinkedHashMap();
         for (Character c = 'A'; c <= 'Z'; c++) {
-            upperAndlower.put(c, freq.getOrDefault(c, 0L) + freq.getOrDefault(c + dist, 0L));
+            upperAndlower.put(c, freq.getOrDefault(c, 0) + freq.getOrDefault(c + dist, 0));
         }
-        Map<Character, Long> sorted = upperAndlower
+        Map<Character, Integer> sorted = upperAndlower
                 .entrySet()
                 .stream()
                 .sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
