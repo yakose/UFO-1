@@ -1,0 +1,17 @@
+### What is the question that the authors try to answer
+Which framework is faster
+
+### What is their hypothesis ?
+It says in the beginning that ``golang``  is faster.
+
+### Prototype
+Making all languages run the same task
+
+### Reproducibility
+Probably
+
+### Results
+Yes, very understandable
+
+### Convincing
+Very convincing

@@ -23,3 +23,16 @@ As said before, we have been unable to properly use any analysis tools and can o
 
 ### Conclusion
 3.4 seconds :point_right: 2 seconds
+
+
+# Review
+Making it into a buffered reader will increase performance by buffering it, and loading it all into memory and not from the disk directly.
+
+Using an Array instead of a hashmap, we will be able to to initialize all pointers meannig that we skip the null pointer expection that, will take us back through the stack, to see where something can handle the error. In this case, we go through the hashmaps methods and down through the stack, and have to go back out again until we find something that can catch.
+
+This should increase the performance by ~~400 times
+
+```java
+long[] freq = new long[127]
+freq[b]++;
+```
