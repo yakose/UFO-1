@@ -34,7 +34,7 @@ Using [Speedtest.net](Speedtest.net), we can try and let it find the server on i
 Running this test and selecting a few different locations has given us these results.
 
 | Server location | Latency | Distance |
-| - | - | |
+| :--- | :---: | ---: |
 |Taastrup | 8 | 60 km
 Malmö | 10 | 104 km
 Stockholm | 19 | 603 km
