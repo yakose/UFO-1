@@ -31,3 +31,11 @@
 - Pro and Cons for each of the above
 - When do these pros and cons apply?
 - When do I choose a monolithic structure over microservices? (conclusion)
+
+
+## Resources
+https://www.thoughtworks.com/insights/blog/monoliths-are-bad-design-and-you-know-it
+
+https://www.webdesignerdepot.com/2018/05/monolith-vs-microservices-which-is-the-best-option-for-you/
+
+https://medium.com/@mstahir/why-monolith-apps-are-evil-f51237703a7d
