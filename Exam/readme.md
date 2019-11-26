@@ -24,3 +24,10 @@
   Better workflow
 
   Microservices are harder to implement, meaning in a smaller project it can be harmful because it will take a lot of work to setup the environment. Some tools have surfaced to help solving this issue but still takes time to setup the entire production environment.
+
+## Outline of project
+- Outlining the problem
+- Monoliths and microservices explained
+- Pro and Cons for each of the above
+- When do these pros and cons apply?
+- When do I choose a monolithic structure over microservices? (conclusion)
