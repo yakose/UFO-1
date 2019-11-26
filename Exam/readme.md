@@ -1,4 +1,4 @@
-# Microservices vs Monoliths?
+# Microservices vs Monoliths
 
 ## Notes
 - Size of project
