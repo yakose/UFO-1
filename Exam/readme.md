@@ -55,20 +55,16 @@ Easier independent development of services
 
 **Cons:**  
 Setup process is slow:
-- You have a server, a client and a database separated from each other that has to start up independently. Each service takes time to setup and connect between each service. This is usually done by a couple of external terminal calls or APi's.
+- You have a server, a client and a database separated from each other that has to start up independently. Each service takes time to setup and connect between each service. This is usually done by a couple of external terminal calls or API's.
 
 Deployment can be slow and complicated:
 - Production type of microservices usually involves around a lot of different technologies in different environments on different computers and cloud providers. All of the services has to connect and speak to each other. By doing this you usually have to follow straight documentation of a particular host provider.
 
 Testing can be hard
-- You have to wire each service up with API's in order to work and run tests on em. A server could be dependant on specific sort of data provided by the database service as an example. This means the database has to be online and the server has to connect through different API libraries to work together.
+- You have to wire each service up with API's in order to work and run tests on them. A server could be dependent on specific sort of data provided by the database service as an example. This means the database has to be online and the server has to connect through different API libraries to work together.
 
 ## Conclusion
 Based on our experiences working on a couple different projects following the different approaches,  we feel that microservices works better for most projects that takes more than a few days to complete. We think that the increased time to set up the developer environment is worth the time because it will make the continued development much easier and more efficient. From the projects we have done in the past we feel like microservices is easier to work with because everything is more contained and decoupled, this makes it less overwhelming to integrate it into a larger system.
-
-
-
-
 
 
 
