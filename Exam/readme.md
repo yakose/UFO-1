@@ -36,7 +36,7 @@ A monolithic application is a single software application, where the user interf
 Microservices is a software development technique that arranges an application as a collection of services. It is the exact opposite of a monolithic application, and therefore is built on the idea of doing one thing and doing it well.
 A microservice is not a layer in a monolithic application, such as a frontend-controller, it is an independent and loosely coupled piece of business functionality which can be used to implement a layered structure. Microservices are unlike monolithic applications build on modularity, which means we can easily maintain our application because everything is separated and we do not have to debug one big complex application, but a smaller part of a bigger system.
 
-**pros:**  
+**Pros:**  
 - Less complex code and easier to understand and work with
 - Each service in an application serve one purpose. A database serves to store data, a message broker serves to deliver messages across services, a frontend serves to create the UI etc.
 - This makes it easier for the developer to understand, debug and work with the source code of that particular technology.
