@@ -16,8 +16,10 @@ A monolithic application is a single software application, where the user interf
 **Pros:**  
 Easy to setup and run:
 - Each service is tightly coupled, which means it there is no third party api libraries involved that requires you to understand and look up a lot of documentation. It is usually built in to your programming language.  
+
 Deployment is straightforward:
 - The application in production will be easy to set up. Lots of documentation is written in a base case of deployment, and monolithic is usually the most simple approach to cloud hosting.
+
 Easier to test:
 - Your application is tightly coupled. Which means each service has to be up and running in order to run tests.
 
