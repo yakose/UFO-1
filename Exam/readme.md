@@ -1,6 +1,6 @@
 # Monolithic design could be bad !
 
-Monoliths are bad for scalability and hard to main old features, because it's tightly coupled. If you have the wrong architecture it can hurt your development process and performance of your application. Implementing a Microservices architecture will allow you to scale the system easily and maintain the existing code with more ease. It can result in a better workflow, but is more expensive.
+Monoliths are bad for scalability and hard to maintain old features, because it's tightly coupled. If you have the wrong architecture it can hurt your development process and performance of your application. Implementing a Microservices architecture will allow you to scale the system easily and maintain the existing code with more ease. It can result in a better workflow, but is more expensive.
 Microservices are harder to implement, meaning in a smaller project it can be harmful because it will take a lot of work to setup the environment. Some tools have surfaced to help solve this issue but still takes time to setup the entire production environment.
 
 ## Outlining the problem
