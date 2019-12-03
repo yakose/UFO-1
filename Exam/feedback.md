@@ -1,0 +1,29 @@
+Lack of reliable data from credible sources
+  We agree, we have no sources to our claims
+
+Theoretical Explanations are present but could be more elaborate
+  We do agree we could change a few lines for more clarity
+  We disagree because the reviewer seems to not have read the paragraph
+
+Previous Work / Future Work discussion is missing
+  We ran out of space in our 4 page limit and we had some trouble finding good examples
+
+Design Criteria, Sample Calculations and Simulations
+  We will attempt to make an experiment that supports our claims but we do not know
+  exactly how to integrate it
+
+Design Constraints and Assumptions
+  Graphs, we agree
+
+Overview - exceeds expectations
+  What could we have done better ??
+
+
+<details>
+<summary> yes </summary>
+
+![alt text](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
+
+![yes](https://miro.medium.com/max/2800/1*TRmj8lWyzCufEGjxCONAog.jpeg)
+
+</details>
