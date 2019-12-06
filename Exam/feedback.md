@@ -22,7 +22,7 @@ Overview - exceeds expectations
 <details>
 <summary> yes </summary>
 
-![alt text](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
+![yes](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
 
 ![yes](https://miro.medium.com/max/2800/1*TRmj8lWyzCufEGjxCONAog.jpeg)
 
