@@ -1,9 +1,9 @@
-# How are we building a calculator ?
+# How to build calculator ?
 
 There are different ways to build a calculator and we will look at them now. Knowing the extent of the calculators features will help in this matter. We will look at building it with a monolithic design and with microservices and explain what the differences are.
 
 ## Why do this?
-So we know that there are two different ways to build systems or projects and want to explore what make them different. In this article we will be circling around the idea of making a calculator app, or system. Having built it in different ways we can look at some of the differences and what they mean, and with the knowledge, this should easily be applicable to other systems that have the same core concepts in how they work.
+So we know that there are two different ways to build systems or projects and want to explore what make them different. In this article we will be circling around the idea of making a calculator app, or system. Having built it in different ways we can look at some of the differences and what they mean, and with that knowledge, this should easily be applicable to other systems that have the same core concepts in how they work.
 
 ## Ready, set, GO!
 So we will be building the calculator and measure certain metrics that will help you decide what works best.
@@ -23,7 +23,7 @@ We see that each service is it's own service and that means, if we need more of 
 ## Wait, where did we go?
 So to go back to the calculator, we can make it in a monolithic design where everything will be packaged into the same system, makes sense right? Yeah, kind of.
 
-Here's why making it in with microservices could be beneficial. Assuming the calculator has more than a couple operations, and we know that we will be adding more as time goes on, we can take advantage of microservices. Instead of having it all in the same service, we can split it up so each operation will be in its own service! This has a couple benefits. It means that we can integrate new ones without touching the older operations thus ensuring we will not break them. It also means that parts of the calculator can break, but still work!
+Here's why making it with microservices could be beneficial. Assuming the calculator has more than a couple operations, and we know that we will be adding more as time goes on, we can take advantage of microservices. Instead of having it all in the same service, we can split it up so each operation will be in its own service! This has a couple benefits. It means that we can integrate new ones without touching the older operations thus ensuring we will not break them. It also means that parts of the calculator can break, but still work!
 
 How does that make sense? It means that one of the operations can break, without the entire calculator going down. We can have a functioning calculator without the '+' operation for example.
 
@@ -32,13 +32,13 @@ The downside of this is that it takes longer to get the calculator to a minimum 
 
 ## We did it. What does it mean?
 Here is our findings.
-Let us say we can use the same frontend or client for both projects so we don't need to worry about it. We just need to make the business aspect of the calculator.
+Let us say we can use the same frontend or client for both projects so we don't need to worry about it. We just need to make the business aspect of the calculator. **explained again**
 
 We decided to use docker to make one of the projects. We concluded this was the best way to really show the scalability potential. Docker is good for many different things but it can be integrated easily with Kubernetes which truly will make the scalability great.
 It makes it very easy to integrate new services and also control them. So this is quite a lot to setup before our simple plus minus operations will be available to our client.
 We also wanna add some tests to be sure  our logic actually works so we will add that too. We are starting to accumulate quite a lot of different files.
 
-Our second project we made simple. We just threw in all the code into the same file and it was made rather quickly. We again made a couple tests to ensure the logic works as we expect. Because we did not use any exterior tools and simply just wrote the code we needed it was very fast to get a working system.
+Our second project we made simple. We just threw in all the code into the same file and it was made rather quickly. We again made a couple of tests to ensure the logic works as we expect. Because we did not use any exterior tools and simply just wrote the code we needed it was very fast to get a working system.
 
 ### Winner? 
 After adding just a couple operations we could easily see what one method was a lot faster. Not having to setup the different tools really sped it up a lot.
