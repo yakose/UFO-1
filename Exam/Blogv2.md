@@ -18,7 +18,7 @@ We see that everything is in the same 'box' or 'container'. This makes it work d
 Here is it in microservices!
 ![microservices](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
 
-We see that each service is it's own service and that means, if we need more of one specific service, we can just clone it! We can simply just make another service of a specific one instead of having to 'clone' the entire system with everything in it. This is not only bad for performance but can also cause other issues as well.
+We see that each service is it's own service and that means, if we need more of one specific service, we can just clone it! We can simply just make another service of a specific one instead of having to 'clone' the entire system with everything in it. This is not only bad for performance but can also cause other issues as well. This is made super easy with kubernetes for example, where you can just up the replica variable and you will get 'x' more or less instances of that service.
 
 ## Wait, where did we go?
 So to go back to the calculator, we can make it in a monolithic design where everything will be packaged into the same system, makes sense right? Yeah, kind of.
