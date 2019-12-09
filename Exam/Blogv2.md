@@ -34,13 +34,13 @@ The downside of this is that it takes longer to get the calculator to a minimum 
 Here is our findings.
 Let us say we can use the same frontend or client for both projects so we don't need to worry about it. We just need to make the business aspect of the calculator.
 
-We decided to use docker🐳 to make one of the projects. We concluded this was the best way to really show the scalability potential. Docker is good for many different things but it can be integrated easily with Kubernetes which truly will make the scalability great.
+We decided to use docker to make one of the projects. We concluded this was the best way to really show the scalability potential. Docker is good for many different things but it can be integrated easily with Kubernetes which truly will make the scalability great.
 It makes it very easy to integrate new services and also control them. So this is quite a lot to setup before our simple plus minus operations will be available to our client.
 We also wanna add some tests to be sure  our logic actually works so we will add that too. We are starting to accumulate quite a lot of different files.
 
 Our second project we made simple. We just threw in all the code into the same file and it was made rather quickly. We again made a couple tests to ensure the logic works as we expect. Because we did not use any exterior tools and simply just wrote the code we needed it was very fast to get a working system.
 
-### 🎉Winner? 🎉
+### Winner? 
 After adding just a couple operations we could easily see what one method was a lot faster. Not having to setup the different tools really sped it up a lot.
 
 So far there was a clear winner in what was faster, monolithic. We just threw in all of the code and all of the tests. It works!
