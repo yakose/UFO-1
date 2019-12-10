@@ -1,6 +1,9 @@
 # How to build calculator ?
 
-There are different ways to build a calculator and we will look at them now. Knowing the extent of the calculators features will help in this matter. We will look at building it with a monolithic design and with microservices and explain what the differences are.
+Software architecture is hard to pick. The market today puts a lot of emphasis on scalability and uptime. By knowing which architecture you should use you can save a lot of time and make a better application.
+
+## Hypothesis
+We believe that setting up for scalability will take more time to setup but in the end will be easier to scale and  get familiar with for new developers, thus saving time in the long run.
 
 ## What can we gain from this
 So we know that there are two different ways to build systems or projects and want to explore what make them different. In this article we will be circling around the idea of making a calculator app, or system. Having built it in different ways we can look at some of the differences and what they mean, and with that knowledge, this should easily be applicable to other systems that have the same core concepts in how they work.
@@ -30,9 +33,8 @@ How does that make sense? It means that one of the operations can break, without
 The downside of this is that it takes longer to get the calculator to a minimum viable product. Making sure you can integrate the services or operations requires more work than just throwing them in there.
 
 
-## We did it. What does it mean?
-Here is our findings.
-Let us say we can use the same frontend or client for both projects so we don't need to worry about it. We just need to make the business aspect of the calculator. **explained again**
+## This is what we found out
+Let us say we can use the same frontend or client for both projects so we don't need to worry about it. We just need to make the business aspect of the calculator.
 
 We decided to use docker to make one of the projects. We concluded this was the best way to really show the scalability potential. Docker is good for many different things but it can be integrated easily with Kubernetes which truly will make the scalability great.
 It makes it very easy to integrate new services and also control them. So this is quite a lot to setup before our simple plus minus operations will be available to our client.
@@ -40,7 +42,7 @@ We also wanna add some tests to be sure  our logic actually works so we will add
 
 Our second project we made simple. We just threw in all the code into the same file and it was made rather quickly. We again made a couple of tests to ensure the logic works as we expect. Because we did not use any exterior tools and simply just wrote the code we needed it was very fast to get a working system.
 
-### Winner?
+### What's better
 After adding just a couple operations we could easily see what one method was a lot faster. Not having to setup the different tools really sped it up a lot.
 
 So far there was a clear winner in what was faster, monolithic. We just threw in all of the code and all of the tests. It works!
@@ -52,3 +54,6 @@ Time to get familiar with microservices: **5 minutes**
 
 ### Conclusion
 Based on our experiences with this experiment, we have found out that it quickly makes sense to build a project using microservices if: it will be developed by more people, it will be adding more features.
+
+In the time to set things up it was clear it was faster to make it monolithic but this lacks the scalability that is sought after. The extra time however is easily offset by the tools that we get with microservices.
+We believe that any project that takes more than a few days to completely finish should be built with microservices.
