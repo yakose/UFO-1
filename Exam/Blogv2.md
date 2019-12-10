@@ -2,10 +2,10 @@
 
 There are different ways to build a calculator and we will look at them now. Knowing the extent of the calculators features will help in this matter. We will look at building it with a monolithic design and with microservices and explain what the differences are.
 
-## Why do this?
+## What can we gain from this
 So we know that there are two different ways to build systems or projects and want to explore what make them different. In this article we will be circling around the idea of making a calculator app, or system. Having built it in different ways we can look at some of the differences and what they mean, and with that knowledge, this should easily be applicable to other systems that have the same core concepts in how they work.
 
-## Ready, set, GO!
+## What is microservices and monolithic
 So we will be building the calculator and measure certain metrics that will help you decide what works best.
 
 Let us start with a simple explanation of the differences between monolithic and microservices and what they essentially are.
@@ -18,7 +18,7 @@ We see that everything is in the same 'box' or 'container'. This makes it work d
 Here is it in microservices!
 ![microservices](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
 
-We see that each service is it's own service and that means, if we need more of one specific service, we can just clone it! We can simply just make another service of a specific one instead of having to 'clone' the entire system with everything in it. This is not only bad for performance but can also cause other issues as well. This is made super easy with kubernetes for example, where you can just up the replica variable and you will get 'x' more or less instances of that service.
+We see that each service is it's own service and that means, if we need more of one specific service, we can just clone it! We can simply just make another service of a specific one instead of having to 'clone' the entire system with everything in it. This is not only bad for performance but can also cause other issues as well. This is made super easy with Kubernetes for example, where you can change a variable and you will get 'x' more or less instances of that service.
 
 ## Wait, where did we go?
 So to go back to the calculator, we can make it in a monolithic design where everything will be packaged into the same system, makes sense right? Yeah, kind of.
@@ -40,7 +40,7 @@ We also wanna add some tests to be sure  our logic actually works so we will add
 
 Our second project we made simple. We just threw in all the code into the same file and it was made rather quickly. We again made a couple of tests to ensure the logic works as we expect. Because we did not use any exterior tools and simply just wrote the code we needed it was very fast to get a working system.
 
-### Winner? 
+### Winner?
 After adding just a couple operations we could easily see what one method was a lot faster. Not having to setup the different tools really sped it up a lot.
 
 So far there was a clear winner in what was faster, monolithic. We just threw in all of the code and all of the tests. It works!
