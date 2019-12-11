@@ -56,7 +56,7 @@ Time to get familiar with microservices: **5 minutes**
 
 ### Conclusion
 
-Based on our experiences with this experiment, we have found out that it quickly makes sense to build a project using microservices if: It is to be developed by multiple people, and it has a substantial sized business case with multiple business functionalities.
+Based on our experiences with this experiment, we have found out that it only makes sense to build a project using microservices if: It is to be developed by multiple people, and it has a substantial sized business case with multiple business functionalities.
 
 In such a small project as the one we have done as explained above the monolithic design is both faster to setup, as we do not have to setup different tools. It is still very easy to get an overview of how the application works due to its small size and therefore it has not got the same complexity as a huge monolithic program normally would have.
 
