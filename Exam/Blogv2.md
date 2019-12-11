@@ -1,6 +1,6 @@
 # How to build calculator ?
 
-Software architecture is hard to pick. The market today puts a lot of emphasis on scalability and uptime. By knowing which architecture you should use you can save a lot of time and make a better application.
+Software architecture is hard to pick. The market today puts a lot of emphasis on scalability and uptime. By knowing which architecture you should use you can save a lot of time and make a better application. It can take more time to set up the right environment for your development, but it will help seperating the different business functionalities from eachother and therefore make it easier for a new developer to add new features.
 
 ## Hypothesis
 We believe that setting up for scalability will take more time to setup but in the end will be easier to scale and  get familiar with for new developers, thus saving time in the long run.
