@@ -46,7 +46,7 @@ Our second project we made using the monolithic design. We just threw in all the
 
 Time to develop:
 
-Monolithic: ~15minutes
+Monolithic: ~15minutes  
 Microservices: ~
 
 As we tried to add more and more operations we found out that it quickly became quite confusing and messy, looking at the monolithic design. We tried to have a friendly developer look at our code and it took him a while understanding how everything was put together and how exactly it all was working. We then asked him to look at our microservices project and he said that it was a lot easier to get to know it.   
