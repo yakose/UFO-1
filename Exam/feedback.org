@@ -12,12 +12,12 @@
   We will attempt to make an experiment that supports our claims but we do not know
   exactly how to integrate it
 
-* Design Constraints and Assumptions
+* Design Constraints and Ass+umptions
   Graphs, we agree
 
 * Overview - exceeds expectations
 ** What could we have done better ??
-**************** we don't know please help 
+**************** we don't know please help
 		 Yes
 
 
@@ -45,4 +45,3 @@
 
 
 ** 2 - XML
-   

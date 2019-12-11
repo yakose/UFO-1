@@ -72,3 +72,6 @@ Microservices: https://en.wikipedia.org/wiki/Microservices
 Monolithic architecture: https://en.wikipedia.org/wiki/Monolithic_application  
 Monolithic calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/CalculatorMonolith
 
+https://dzone.com/articles/top-5-microservices-architecture-and-design-best-p
+
+https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63
