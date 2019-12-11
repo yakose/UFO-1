@@ -19,7 +19,7 @@ To keep it short here is a picture of what monolithic design is:
 We see that everything is in the same 'box' or 'container'. This makes it work differently than microservices as you cannot scale a single component and everything is very tightly coupled, this means everything is reliant on each other. It also means that if something breaks down, everything with break down.
 
 Here is it in microservices!
-![microservices](https://miro.medium.com/max/3444/1*FYrICPQmw3ebh70oswdA6g.png)
+![microservices](https://miro.medium.com/max/1750/1*3mY6LcrO3o0nkpAZkNjF0Q.jpeg)
 
 We see that each service is it's own service and that means, if we need more of one specific service, we can just clone it! We can simply just make another service of a specific one instead of having to 'clone' the entire system with everything in it. This is not only bad for performance but can also cause other issues as well. This is made super easy with Kubernetes for example, where you can change a variable and you will get 'x' more or less instances of that service.
 
@@ -70,8 +70,5 @@ We believe that any project that fits the criteria mentioned in the top of the c
 Kubernetes replica and scalability source: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
 Microservices: https://en.wikipedia.org/wiki/Microservices  
 Monolithic architecture: https://en.wikipedia.org/wiki/Monolithic_application  
-Monolithic calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/CalculatorMonolith
-
-https://dzone.com/articles/top-5-microservices-architecture-and-design-best-p
-
-https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63
+Monolithic calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/CalculatorMonolith  
+Pictures of architecture: https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63
