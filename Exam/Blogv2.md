@@ -68,3 +68,4 @@ We believe that any project that fits the criteria mentioned in the top of the c
 
 ## Resources
 Kubernetes replica and scalability source: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+Monolithic calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/CalculatorMonolith
