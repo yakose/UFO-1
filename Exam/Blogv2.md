@@ -62,7 +62,7 @@ In such a small project as the one we have done as explained above the monolithi
 
 Microservices still have advantages as we mentioned earlier, where we can easily scale one of the business functions instead of having to scale everything. In our experiment it probably causes more problems than advantages as it is hard to split up such a small project in multiple services, but one of the clear advantages that it still has is that one of our operations can break and the rest of the calculator will still function as intended.
 
-We can therefore see that a microservice structure doesn't utilize its full potential in such a small business case. It would make alot of sense to do microservices if had a huge project/business case and there is a clear difference in the business functionalities, so it would be easy to split up. Due to the size of this project we experimented on.... bla bla bla
+We can therefore see that a microservice structure doesn't utilize its full potential in such a small business case. It would make alot of sense to do microservices if had a huge project/business case and there is a clear difference in the business functionalities, so it would be easy to split up. Due to the size of this project we experimented on we can't confirm or deny our hypothesis as our experiment was not adequate.
 
 We believe that any project that fits the criteria mentioned in the top of the conclusion and that takes more than a few days to completely finish should be built with microservices.
 
