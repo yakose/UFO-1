@@ -60,8 +60,11 @@ Based on our experiences with this experiment, we have found out that it quickly
 
 In such a small project as the one we have done as explained above the monolithic design is both faster to setup, as we do not have to setup different tools. It is still very easy to get an overview of how the application works due to its small size and therefore it has not got the same complexity as a huge monolithic program normally would have.
 
-Microservices still have advantages as we mentioned earlier, where we can easily scale one of the business functions instead of having to scale everything. In our experiment it probably causes more problems than advantages, but one of the clear advantages that it still has is that one of our operations can break and the rest of the calculator will still function as intended.
+Microservices still have advantages as we mentioned earlier, where we can easily scale one of the business functions instead of having to scale everything. In our experiment it probably causes more problems than advantages as it is hard to split up such a small project in multiple services, but one of the clear advantages that it still has is that one of our operations can break and the rest of the calculator will still function as intended.
 
 We can therefore see that a microservice structure doesn't utilize its full potential in such a small business case. It would make alot of sense to do microservices if had a huge project/business case and there is a clear difference in the business functionalities, so it would be easy to split up. Due to the size of this project we experimented on.... bla bla bla
 
 We believe that any project that fits the criteria mentioned in the top of the conclusion and that takes more than a few days to completely finish should be built with microservices.
+
+## Resources
+Kubernetes replica and scalability source: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
