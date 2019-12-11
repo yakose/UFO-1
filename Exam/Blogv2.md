@@ -71,5 +71,6 @@ We believe that any project that fits the criteria mentioned in the top of the c
 Kubernetes replica and scalability source: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
 Microservices: https://en.wikipedia.org/wiki/Microservices  
 Monolithic architecture: https://en.wikipedia.org/wiki/Monolithic_application  
+Pictures of architecture: https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63  
+Microservice calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/ufo-microservices  
 Monolithic calculator source code: https://github.com/niichtsShaiaz/UFO/tree/master/Exam/CalculatorMonolith  
-Pictures of architecture: https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63
