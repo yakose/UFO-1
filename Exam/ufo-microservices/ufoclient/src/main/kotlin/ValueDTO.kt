@@ -1,0 +1,1 @@
+data class ValueDTO (val number1: Int, val number2: Int)

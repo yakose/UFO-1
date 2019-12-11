@@ -1,0 +1,1 @@
+/Users/oliver/Documents/ufo/ufo-microservices/ufoclient/build/classes/kotlin/main/MainKt.class:/Users/oliver/Documents/ufo/ufo-microservices/ufoclient/build/classes/kotlin/main/ValueDTO.class
